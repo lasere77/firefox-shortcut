@@ -6,7 +6,7 @@ body{
 div.cont1 nav ul li.btn{
 	list-style-type: none;
 	font-size: 70px;
-	opacity: 0.4;
+	opacity: 0.8;
 }
 div.cont1 nav ul li.btn a{
 	font-size: 20px;
@@ -20,6 +20,29 @@ div.cont1 nav ul li.btn:hover a{
 	font-size: 25px;
 	transition: 0.5s all;
 }
-div.cont1{
-	padding-bottom: 500px;
+ul li .cont2{
+	position: absolute;
+	bottom: 55px;
+	width: 400px;
+	background: #1d1133;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 4px;
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+	transform: translateX(-50%) translateY(-50px);
 }
+ul li:hover .cont2{
+	visibility: visible;
+	opacity: 1;
+	transform: translateX(50%) translateY(-380px);
+}
+ul li .cont2 p{
+	font-size: 25px;
+	color: red;
+	margin: 0px;
+	padding: 0px;
+}
+
+
