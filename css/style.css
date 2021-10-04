@@ -44,5 +44,9 @@ ul li .cont2 p{
 	margin: 0px;
 	padding: 0px;
 }
-
-
+div.cont2 a.ext{
+	font-size: 5px;
+}
+nav ul li.btn2{
+	list-style-type: none;
+}
