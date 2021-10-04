@@ -24,7 +24,7 @@ ul li .cont2{
 	position: absolute;
 	bottom: 55px;
 	width: 400px;
-	background: #1d1133;
+	background: #201338;
 	padding: 20px;
 	box-sizing: border-box;
 	border-radius: 4px;
@@ -48,5 +48,17 @@ div.cont2 a.ext{
 	font-size: 5px;
 }
 nav ul li.btn2{
+	margin-bottom: 10px;
 	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+nav ul li.btn2{
+	margin-bottom: 10px;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}nav ul li.btn2 p{
+	display: flex;
+	justify-content: center;
 }
