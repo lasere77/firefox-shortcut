@@ -62,3 +62,10 @@ nav ul li.btn2{
 	display: flex;
 	justify-content: center;
 }
+div.cont1 div.cont2 nav ul li.btn2 a{
+	font-size: 20px;
+}
+div.cont1 div.cont2 nav ul li.btn2:hover a{
+	font-size: 25px;
+	transition: 0.5s all;
+}
